@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {}
+    "C:\\Users\\Thinkpad T460s\\API-LogIn-With-JWT\\API\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {}
   },
   "projects": {
-    "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {
+    "C:\\Users\\Thinkpad T460s\\API-LogIn-With-JWT\\API\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
+        "projectUniqueName": "C:\\Users\\Thinkpad T460s\\API-LogIn-With-JWT\\API\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
         "projectName": "MyWebApiApp",
-        "projectPath": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
+        "projectPath": "C:\\Users\\Thinkpad T460s\\API-LogIn-With-JWT\\API\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
         "packagesPath": "C:\\Users\\Thinkpad T460s\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\obj\\",
+        "outputPath": "C:\\Users\\Thinkpad T460s\\API-LogIn-With-JWT\\API\\MyWebApiApp\\MyWebApiApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thinkpad T460s\\AppData\\Roaming\\NuGet\\NuGet.Config",

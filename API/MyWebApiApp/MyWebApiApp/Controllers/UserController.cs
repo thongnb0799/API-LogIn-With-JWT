@@ -82,7 +82,7 @@ namespace MyWebApiApp.Controllers
             var accessToken = jwtTokenHandler.WriteToken(token);
             var refreshToken = GenerateRefreshToken();
 
-            //Lưu database
+            //Save to database
             var refreshTokenEntity = new RefreshToken
             {
                 Id = Guid.NewGuid(),
