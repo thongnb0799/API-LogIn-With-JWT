@@ -12,7 +12,6 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MyWebApiApp.Data;
 using MyWebApiApp.Models;
-using MyWebApiApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -39,10 +38,7 @@ namespace MyWebApiApp
             services.AddDbContext<MyDbContext>(option => {
                 option.UseSqlServer(Configuration.GetConnectionString("MyDB"));
             });
-
-            //services.AddScoped<ILoaiRepository, LoaiRepository>();
-            services.AddScoped<ILoaiRepository, LoaiRepositoryInMemory>();
-            services.AddScoped<IHangHoaResposity, HangHoaRepository>();
+      
 
             services.Configure<AppSetting>(Configuration.GetSection("AppSettings"));
 
@@ -54,11 +50,11 @@ namespace MyWebApiApp
             {
                 opt.TokenValidationParameters = new TokenValidationParameters
                 {
-                    //tu cap token
+                    //tu tao token
                     ValidateIssuer = false,
                     ValidateAudience = false,
 
-                    //ky vao token
+                    //ki vao token
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = new SymmetricSecurityKey(secretKeyBytes),
 

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = MyWebApiApp
-build_property.ProjectDir = D:\Program\Project Visual Studio 2019\ASP.net core API\New folder\api login jwt\MyWebApiApp\MyWebApiApp\
+build_property.ProjectDir = D:\Program\Project Visual Studio 2019\ASP.net core API\freecousre-webapi-net5-08_JWT_RefreshToken\MyWebApiApp\MyWebApiApp\

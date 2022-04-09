@@ -20,6 +20,7 @@ namespace MyWebApiApp.Data
         public string Password { get; set; }
         public string HoTen { get; set; }
         public string Email { get; set; }
+        public string Role { get; set; }
 
     }
 }

@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace MyWebApiApp.Controllers
 {
     [Route("api/[controller]")]
@@ -22,6 +23,7 @@ namespace MyWebApiApp.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles ="user")]
         public IActionResult GetAll()
         {
             try

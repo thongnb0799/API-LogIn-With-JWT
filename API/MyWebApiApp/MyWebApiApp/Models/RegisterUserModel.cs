@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyWebApiApp.Models
 {
-    public class RegisterModel
+    public class RegisterUserModel
     {
         [Required]
         [MaxLength(50)]
@@ -17,6 +17,6 @@ namespace MyWebApiApp.Models
 
         public string HoTen { get; set; }
         public string Email { get; set; }
-        public string Role { get; set; }
+       
     }
 }

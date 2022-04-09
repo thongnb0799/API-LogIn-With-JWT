@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\New folder\\api login jwt\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {}
+    "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {}
   },
   "projects": {
-    "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\New folder\\api login jwt\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {
+    "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\New folder\\api login jwt\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
+        "projectUniqueName": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
         "projectName": "MyWebApiApp",
-        "projectPath": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\New folder\\api login jwt\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
+        "projectPath": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\MyWebApiApp.csproj",
         "packagesPath": "C:\\Users\\Thinkpad T460s\\.nuget\\packages\\",
-        "outputPath": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\New folder\\api login jwt\\MyWebApiApp\\MyWebApiApp\\obj\\",
+        "outputPath": "D:\\Program\\Project Visual Studio 2019\\ASP.net core API\\freecousre-webapi-net5-08_JWT_RefreshToken\\MyWebApiApp\\MyWebApiApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thinkpad T460s\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,7 +40,15 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
               "version": "[5.0.10, )"
             },

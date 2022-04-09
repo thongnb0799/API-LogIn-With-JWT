@@ -5,7 +5,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-
 namespace MyWebApiApp.Data
 {
     [Table("Loai")]
@@ -17,6 +16,5 @@ namespace MyWebApiApp.Data
         [MaxLength(50)]
         public string TenLoai { get; set; }
 
-        public virtual ICollection<HangHoa> HangHoas { get; set; }
     }
 }

@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace MyWebApiApp.Models
 {
-    public class LoaiVM
+    public class TokenModel
     {
-        public int MaLoai { get; set; }
-        public string TenLoai { get; set; }
+        public string AccessToken { get; set; }
+        public string RefreshToken { get; set; }
     }
 }
